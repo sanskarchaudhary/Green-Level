@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Library</title>
+    <style>
+        /* Global styles */
+        :root {
+          --primary-color: #337ab7;
+          --secondary-color: #f9f9f2;
+          --font-family: Arial, sans-serif;
+          --font-size: 16px;
+          --line-height: 1.6;
+          --font-weight: 400;
+          --font-weight-bold: 700;
+        }
+
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          font-family: var(--font-family);
+          font-size: var(--font-size);
+          line-height: var(--line-height);
+          color: #000;
+          background-color: #ffffff;
+          width: 100%;
+          height: 100%;
+        }
+
+        /* Container styles */
+        .container {
+          max-width: 100%;
+          margin: 40px auto;
+          padding: 20px;
+          background-color: #fff;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          gap: 20px;
+        }
+
+        /* Plant styles */
+        .plant {
+          flex: 1 1 300px;
+          padding: 20px;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .love-plant {
+          margin-right: 20px;
+        }
+
+        /* Typography styles */
+        h1, h2, h3 {
+          color: var(--primary-color);
+          margin-bottom: 10px;
+        }
+
+        h1 {
+          font-size: 36px;
+          text-align: center;
+        }
+
+        h2, h3 {
+          font-size: 24px;
+          text-align: center;
+        }
+
+        p {
+          margin-bottom: 20px;
+        }
+
+        /* List styles */
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        li {
+          margin-bottom: 20px;
+        }
+
+        li img {
+          width: 100px;
+          height: 100px;
+          margin-right: 20px;
+          border-radius: 10px;
+          object-fit: cover;
+        }
+
+        /* Image styles */
+        img {
+          max-width: 100%;
+          height: auto;
+          margin: 0 auto;
+          display: block;
+        }
+    </style>
+</head>
+<body>
+<h1>Plant Library</h1>
+    <div class="container">
+        <div>
+           
+            <div>
+                <h2>Indoor Plants</h2>
+                <ul class="plants">
+                    <li class="plant love-plant">
+                        <h3>Snake Plant</h3>
+                        <p>Snake plants are easy to care for and require little water. They prefer bright, indirect light.</p>
+                        <img src="https://buygreen.in/wp-content/uploads/2022/09/bird-nest-snake-plant.gif" alt="Snake Plant Image">
+                    </li>
+                    <li class="plant">
+                        <h3>Pothos</h3>
+                        <p>Pothos are low-maintenance plants that can tolerate a wide range of conditions. They prefer bright, indirect light.</p>
+                        <img src="https://pcfb.gumlet.io/images/articles/golden-pothos-in-hanging-basket.png?w=640&h=426&mode=crop&crop=smart&s=50e6ea2942716506fe3ebf1096ab111b" alt="Pothos Image">
+                    </li>
+                    <li class="plant">
+                        <h3>ZZ Plant</h3>
+                        <p>ZZ plants are drought-tolerant and can survive in low light conditions. They prefer bright, indirect light.</p>
+                        <img src="https://m.media-amazon.com/images/I/51RA0juIgrL._AC_UF1000,1000_QL80_.jpg" alt="ZZ Plant Image">
+                    </li>
+                    <li class="plant love-plant">
+                        <h3>Rubber Plant</h3>
+                        <p>Rubber plants are known for their large, glossy leaves. They thrive in bright, indirect light.</p>
+                        <img src="https://m.media-amazon.com/images/I/719Y8AtenqL._AC_UF1000,1000_QL80_.jpg" alt="Rubber Plant Image">
+                    </li>
+                    <li class="plant">
+                        <h3>Spider Plant</h3>
+                        <p>Spider plants are easy to grow and are great for purifying indoor air. They prefer bright, indirect light.</p>
+                        <img src="https://www.bhg.com/thmb/oDnjlrHprd67aYvinrMfQgVUPtQ=/5332x0/filters:no_upscale():strip_icc()/BHG-spider-plant-c0e0fdd5ec6e4c1588998ce3167f6579.jpg" alt="Spider Plant Image">
+                    </li>
+                    <li class="plant">
+                        <h3>Aloe Vera</h3>
+                        <p>Aloe vera is a succulent with many health benefits. It prefers bright, indirect light and well-draining soil.</p>
+                        <img src="https://m.media-amazon.com/images/I/71tXTYw+oGL._AC_UF1000,1000_QL80_.jpg" alt="Aloe Vera Image">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h2>Outdoor Plants</h2>
+            <ul class="plants">
+                <li class="plant love-plant">
+                    <h3>Lavender</h3>
+                    <p>Lavender is known for its fragrance and is used in aromatherapy. It requires full sun and well-drained soil.</p>
+                    <img src="https://st2.depositphotos.com/1136968/11555/i/450/depositphotos_115558928-stock-photo-soft-focus-on-lavender-flower.jpg" alt="Lavender Image">
+                </li>
+                <li class="plant">
+                    <h3>Rosemary</h3>
+                    <p>Rosemary is a fragrant herb used in cooking and has medicinal properties. It thrives in full sun and well-drained soil.</p>
+                    <img src="https://st2.depositphotos.com/1136968/11555/i/450/depositphotos_115558928-stock-photo-soft-focus-on-lavender-flower.jpg" alt="Rosemary Image">
+                </li>
+                <li class="plant">
+                    <h3>Sunflower</h3>
+                    <p>Sunflowers are tall, cheerful flowers that attract pollinators. They need full sun and well-drained soil.</p>
+                    <img src="https://images.ctfassets.net/i3tkg7dt3kro/63FGq7L4NaWBLjl27vDtdZ/2e076e0c74a7c22ad3ed3bd44ec11086/6-11_Meaning-of-Sunflowers_Images.jpg" alt="Sunflower Image">
+                </li>
+                <li class="plant love-plant">
+                    <h3>Hibiscus</h3>
+                    <p>Hibiscus flowers come in various colors and are popular in gardens. They require full sun and regular watering.</p>
+                    <img src="https://5.imimg.com/data5/FW/EX/MY-531187/botanical-name-3a-hibiscus-rosa-sinensis-common-name-3a-gudhal.jpg" alt="Hibiscus Image">
+                </li>
+                <li class="plant">
+                    <h3>Geranium</h3>
+                    <p>Geraniums are colorful flowers often used in containers and hanging baskets. They prefer full sun and well-drained soil.</p>
+                    <img src="https://all-americaselections.org/wp-content/uploads/2016/11/GeraniumCalliopeMDarkRed1.jpg" alt="Geranium Image">
+                </li>
+                <li class="plant">
+                    <h3>Marigold</h3>
+                    <p>Marigolds are easy-to-grow flowers that come in vibrant colors. They require full sun and well-drained soil.</p>
+                    <img src="https://naturerabbit.in/wp-content/uploads/2018/08/Nature-Rabbit-African-marigold-Orange-Plant.jpg" alt="Marigold Image">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const plants = document.querySelectorAll('.plant');
+
+            plants.forEach(plant => {
+                plant.addEventListener('click', (event) => {
+                    if (event.target.tagName === 'IMG') {
+                        const plantName = event.target.alt;
+                        alert(`You clicked on the ${plantName} plant!`);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
